@@ -1,13 +1,42 @@
+@import "variables/_color.scss";
+
 body {
-    background-color: burlywood;
+    background-color: $backgorund-color;
+}
+
+div {
+    background-color: $div-color;
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+        color: $titulo;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 
-div {
-    background-color: rgb(0, 38, 255);
 
-    p {
-        color: rgb(231, 14, 166);
+section {
+    background-color: $div-color;
+    display: flex;
+
+    div {
+        justify-content: left;
+
+        p {
+            color: $color
+        }
     }
+
+    img {
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+
+.texto {
+    padding: 10px;
 }
 

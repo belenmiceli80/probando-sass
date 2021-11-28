@@ -1,7 +1,25 @@
 body {
-  background-color: burlywood; }
+  background-color: #a3cfc2; }
 
 div {
-  background-color: #0026ff; }
-  div p {
-    color: #e70ea6; }
+  background-color: #c4e5fc; }
+  div h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+section {
+  background-color: #c4e5fc;
+  display: flex; }
+  section div {
+    justify-content: left; }
+    section div p {
+      color: sandybrown; }
+  section img {
+    border-radius: 20px;
+    padding: 10px; }
+
+.texto {
+  padding: 10px; }
